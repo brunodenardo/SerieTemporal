@@ -33,7 +33,7 @@ ax.legend()
 plt.show()
 
 # Dividir os dados em treino e teste
-steps = 36  # Número de meses para o conjunto de teste
+steps = 300  # Número de meses para o conjunto de teste
 data_train = data[:-steps]
 data_test = data[-steps:]
 

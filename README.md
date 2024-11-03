@@ -27,7 +27,7 @@ Utilizamos o modelo **Prophet** para realizar previsões de anomalias climática
 
 A imagem a seguir ilustra um exemplo de previsão de 300 meses à frente usando o Prophet:
 
-![Exemplo de Previsão](path_para_imagem)
+![Exemplo de Previsão](imgs\Imagem300steps.png)
 
 ### Resultados do Treinamento de 300 Steps
 
@@ -44,3 +44,19 @@ Esses valores indicam a precisão do modelo na previsão das anomalias de temper
 1. Clone este repositório:
    ```bash
    git clone https://github.com/brunodenardo/SerieTemporal.git
+   cd SerieTemporal
+
+2. Crie um ambiente virtual (opcional, mas recomendado):
+   ```bash
+   python -m venv myenv
+   source myenv/bin/activate  # Linux/Mac
+   myenv\Scripts\activate     # Windows
+
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+
+4. Executar o Script de Treinamento e Previsão
+   ```bash
+   python TreinoEPrevisao.py
+
