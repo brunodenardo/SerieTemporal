@@ -27,7 +27,7 @@ Utilizamos o modelo **Prophet** para realizar previsões de anomalias climática
 
 A imagem a seguir ilustra um exemplo de previsão de 300 meses à frente usando o Prophet:
 
-![Exemplo de Previsão](imgs\Imagem300steps.png)
+![Exemplo de Previsão](https://github.com/brunodenardo/SerieTemporal/blob/main/imgs/Imagem300steps.png)
 
 ### Resultados do Treinamento de 300 Steps
 
